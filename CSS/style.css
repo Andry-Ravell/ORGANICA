@@ -37,6 +37,9 @@ max-width: 1300px;
 .contenedor_logo{
     max-width: 220px;
 }
+.contenedor_icono_menu{
+    display: none;
+}
 .logo_arriba{
     width: 100%;
 }
