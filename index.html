@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <!--Menu-->
+
+    <header class="ancho menu">
+        <div class="contenedor">
+            <figure class="contenedor_logo">
+                <img src="IMAGENES/logo_arriba.png" alt="" class="logo_arriba">
+            </figure>
+            <i class="fa-solid fa-bars icono_menu" id="menu"></i>
+        </div>
+        <nav class="menu_responsive" id="contenedor_menu">
+           <div class="contenedor_menu">
+             <a href="#">Inicio</a>
+             <a href="#">Servicios</a>
+             <a href="#">Nuestros Productos</a>
+             <a href="#">Contactanos</a>
+           </div class="contenedor_menu">
+         </nav>
+    </header>
+
+    <!--Slide y Titulo-->
+
+    <section class="slide">
+        <div class="contenedor_titulo">
+            <h1 class="titulo_slide">Cultivamos verduras orgánicas y las traemos hasta tu mesa</h1>
+        </div>
+    </section>
+
+    <!--Servicios-->
+
+    <div class="ancho contenedor_titulo_servicios">
+    <h2 class="titulo_servicios">Nuestros Servicios</h1>
+    <p class="parrafo_servicios">Lo que ofrecemos</p>
+    </div>
+    <section class="servicios ancho">
+        <article class="servicio">
+            <figure class="contenedor_imagen_servicio">
+                <img src="IMAGENES/icono1.png" alt="" class="imagen_servicio">
+            </figure>
+            <h2 class="titulo_servicio">Ganado Vacuno</h2>
+            <br>
+            <p class="parrafo_servicio">Carnes de res producida sin ingeniería genética, uso de radiación ionizante o lodos de depuradora</p>
+        </article>
+        <article class="servicio">
+             <figure class="contenedor_imagen_servicio">
+                <img src="IMAGENES/icono2.png" alt="" class="imagen_servicio">
+            </figure>
+            <h2 class="titulo_servicio">Productos Lácteos</h2>
+            <br>
+            <p class="parrafo_servicio">Los Productos lácteos como la leche, el queso y el yogur contienen los nutrientes que su cuerpo necesita.</p>
+        </article>
+        <article class="servicio">
+             <figure class="contenedor_imagen_servicio">
+                <img src="IMAGENES/icono3.png" alt="" class="imagen_servicio">
+            </figure>>
+            <h2 class="titulo_servicio">Frutas de la Huerta</h2>
+            <br>
+            <p class="parrafo_servicio">Cubre todo lo que necesita saber para cultivar y comercializar con exito sus propias frutas orgánicas de huerta</p>
+        </article>
+    </section>
+
+    <!--Final-->
+
+    <footer class="contenedor_final">
+        <figure>
+            <img src="IMAGENES/logo_abajo.png" alt="">
+        </figure>
+    </footer>
+
+    <!--Animación Menu Responsive-->
+
+    <script>
+        //Funcion Menu
+        $("#menu").click(function () {
+        $('#contenedor_menu').slideToggle();
+        });
+    </script>
+</body>
+</html>
